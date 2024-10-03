@@ -7,3 +7,4 @@ def find_survivor(n):
         return (find_survivor(n - 1) + 1) % n + 1
     print(find_survivor(n)
           
+### it words
